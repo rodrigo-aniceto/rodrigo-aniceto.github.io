@@ -22,7 +22,7 @@ description: >- # used by seo meta and the atom feed
   Somos um canal anônimo onde aqueles que passam por sofrimentos podem desabafar e receber ajuda espiritual e emocional. Nos fundamentamos na Bíblia Sagrada.
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://rodrigo-aniceto.github.io"
 
 github:
   username: github_username # change to your github username
