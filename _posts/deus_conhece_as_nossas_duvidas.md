@@ -9,7 +9,7 @@ tags: []
 *Por Dave Dunham*
 
 
-![img-description] (assets/img/dave-dunham.png)
+[//]: # (![img-description] (assets/img/dave-dunham.png))
 
 
 A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais casos, nossa maior esperança é recorrer ao Deus de conforto que antecipou que teríamos essas dúvidas sobre Ele. Deus descreve nossas dúvidas em Sua Palavra para nos aproximar Dele.
