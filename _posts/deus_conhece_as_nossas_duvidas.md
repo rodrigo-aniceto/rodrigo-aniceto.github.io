@@ -1,16 +1,12 @@
 ---
 title: Deus conhece as nossas dúvidas
-date: 2024-03-07 12:00:00 -500
+date: 2024-03-06 12:00:00 -500
 categories: [confiança]
 tags: []
 ---
 
 ## **DEUS CONHECE AS NOSSAS DÚVIDAS**
 *Por Dave Dunham*
-
-
-[//]: # (![img-description] (assets/img/dave-dunham.png))
-
 
 A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais casos, nossa maior esperança é recorrer ao Deus de conforto que antecipou que teríamos essas dúvidas sobre Ele. Deus descreve nossas dúvidas em Sua Palavra para nos aproximar Dele.
 
