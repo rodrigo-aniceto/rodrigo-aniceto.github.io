@@ -36,6 +36,7 @@ No meio das dúvidas, muitas vezes procuramos alguma forma de garantia tangível
 
 * Os versículos 5 e 11 do Salmo 42 descrevem como o salmista responde às suas dúvidas no Senhor. O que você pode aprender desses versículos enquanto enfrenta suas próprias dúvidas?
 
+
 **Tradução com permissão.**
 
 **Fonte: Coalizão de Aconselhamento Bíblico | Deus Conhece Nossas Dúvidas (biblicalcounselingcoalition.org)**
