@@ -8,6 +8,8 @@ tags: [confiança,descanso]
 ## **CONFIANDO NO TEMPO E NA PROVISÃO DE DEUS**
 *Por Andrew Dealy*
 
+<img src="assets/img/andrew-dealy.png" width="100">
+
 E quando o pegou, ele o colocou na prisão, entregando-o a quatro esquadrões de soldados para guardá-lo, com a intenção de trazê-lo diante do povo depois da Páscoa. Assim, Pedro estava mantido na prisão, mas a igreja orava fervorosamente por ele a Deus. E quando Herodes estava prestes a trazê-lo para fora, naquela mesma noite, Pedro estava dormindo entre dois soldados, preso com duas correntes, e sentinelas estavam guardando a porta da prisão. E eis que um anjo do Senhor estava ao lado dele, e uma luz brilhava na cela. Ele bateu em Pedro de lado e o acordou, dizendo: "Levante-se rapidamente." E as correntes caíram de suas mãos (Atos 12:4-7).
 
 ### **O tempo de Deus**
