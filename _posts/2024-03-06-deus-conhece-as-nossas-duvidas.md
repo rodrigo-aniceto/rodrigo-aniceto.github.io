@@ -8,7 +8,7 @@ tags: []
 ## **DEUS CONHECE AS NOSSAS DÚVIDAS**
 *Por Dave Dunham*
 
-<img src="assets/img/dave-dunham.png" width="100">
+<img src="assets/img/dave-dunham.png" alt="Dave Dunham" width="100">
 
 A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais casos, nossa maior esperança é recorrer ao Deus de conforto que antecipou que teríamos essas dúvidas sobre Ele. Deus descreve nossas dúvidas em Sua Palavra para nos aproximar Dele.
 

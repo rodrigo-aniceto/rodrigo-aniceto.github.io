@@ -8,7 +8,7 @@ tags: []
 ## **CONFIANDO EM DEUS NAS TEMPESTADES DA VIDA**
 *Por Shannon Kay McCoy*
 
-<img src="assets/img/shannon-mccoy.png" width="100">
+<img src="assets/img/shannon-mccoy.png" alt="Shannon Kay McCoy" width="100">
 
 Quando eu era criança crescendo na Carolina do Sul, eu adorava tempestades. Eu observava o vento uivante soprar as folhas dos galhos das árvores e as gotas de chuva baterem na grama sob o céu escuro e cinzento. Se estivéssemos na casa da minha avó, ela nos fazia desligar tudo elétrico. Isso significava nada de TV ou rádio (não havia internet naqueles dias). Meus irmãos e eu não tínhamos outra escolha senão brincar uns com os outros. Encontramos uma maneira de suportar a tempestade até ela passar.
 
