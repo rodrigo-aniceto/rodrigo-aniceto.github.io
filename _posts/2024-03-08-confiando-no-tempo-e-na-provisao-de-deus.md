@@ -2,7 +2,7 @@
 title: Confiando no tempo e na provisão de Deus
 date: 2024-03-08 12:00:00 -500
 categories: [confiança]
-tags: [confiança,tempo,descanso]
+tags: [confiança,descanso]
 ---
 
 ## **CONFIANDO NO TEMPO E NA PROVISÃO DE DEUS**
@@ -52,5 +52,5 @@ Que Deus cresça em cada um de nós um coração paciente e cheio de esperança 
 
 **Tradução com permissão.**
 
-**Fonte: Coalizão de Aconselhamento Bíblico | Confiando no Tempo e Provisão de Deus (biblicalcounselingcoalition.org)**
+**Fonte: Coalizão de Aconselhamento Bíblico - Confiando no Tempo e Provisão de Deus (biblicalcounselingcoalition.org)**
 

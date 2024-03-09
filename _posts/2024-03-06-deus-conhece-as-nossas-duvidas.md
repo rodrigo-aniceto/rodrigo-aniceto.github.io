@@ -8,6 +8,8 @@ tags: []
 ## **DEUS CONHECE AS NOSSAS DÚVIDAS**
 *Por Dave Dunham*
 
+<img src="assets/img/dave-dunham.png" width="100">
+
 A insegurança em nossa relação com Deus é uma experiência bastante comum. Enquanto muitos de nós podem ser tranquilizados pelo amor de Deus com facilidade, para algumas pessoas, a ansiedade sobre sua salvação pode ser tão intensa que nenhum nível de tranquilização pode proporcionar conforto. Em tais casos, nossa maior esperança é recorrer ao Deus de conforto que antecipou que teríamos essas dúvidas sobre Ele. Deus descreve nossas dúvidas em Sua Palavra para nos aproximar Dele.
 
 Existem várias razões diferentes pelas quais alguém pode lutar com a certeza do amor de Deus, mas considere estas três razões comuns. Primeiro, considere as influências contextuais. Embora nosso contexto não nos faça fazer nada, ele nos influencia. Ele nos impacta de maneiras significativas. Coisas como experiências na infância e pais podem ter um impacto profundo em nosso sentido de Deus. Talvez você tenha experimentado Deus através de um pai abusivo, ou pastor abusivo, líder de jovens ou professor de escola dominical. Todo trauma na infância nos impacta profundamente, mas o trauma que associa Deus aos nossos agressores torna particularmente difícil ver Deus como amoroso.
@@ -39,5 +41,5 @@ No meio das dúvidas, muitas vezes procuramos alguma forma de garantia tangível
 
 **Tradução com permissão.**
 
-**Fonte: Coalizão de Aconselhamento Bíblico | Deus Conhece Nossas Dúvidas (biblicalcounselingcoalition.org)**
+**Fonte: Coalizão de Aconselhamento Bíblico - Deus Conhece Nossas Dúvidas (biblicalcounselingcoalition.org)**
 
