@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Amigos na Dor</title>
+    <script>
+      (function () {
+        const { pathname, search, hash, origin } = window.location;
+        const route = pathname + search + hash;
+        const normalizedRoute = route.replace(/&/g, '~and~');
+        window.location.replace(origin + '/?/' + normalizedRoute.replace(/^\//, ''));
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

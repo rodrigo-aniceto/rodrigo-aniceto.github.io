@@ -1,18 +1,57 @@
 <!doctype html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projeto p5.js</title>
-        <script src="assets/js/p5.js"></script>
-        <!--<script src="assets/js/conway/conway.js" defer></script>-->
-        <!--<script src="assets/js/hamsters/main.js" defer></script>-->
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
-    </head>
-    <body>
-        <main>
-            <a href="conway.html">conway</a><br />
-            <a href="hamsters.html">hamsters</a>
-        </main>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amigos na Dor | Apoio Religioso e Conforto</title>
+
+    <!-- Meta Tags Básicas -->
+    <meta name="description" content="Amigos na Dor - Um espaço seguro e acolhedor para desabafar, encontrar apoio religioso e conforto emocional. Você não está sozinho." />
+    <meta name="keywords" content="apoio emocional, conforto espiritual, oração, desabafar, atendimento anônimo, luto, ansiedade, igreja" />
+    <meta name="author" content="Amigos na Dor" />
+
+    <!-- Favicon e Ícones -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://amigosnador.com.br/" />
+    <meta property="og:title" content="Amigos na Dor | Você não está sozinho" />
+    <meta property="og:description" content="Acolhimento emocional e espiritual para quem precisa desabafar e encontrar paz." />
+    <meta property="og:image" content="/web-app-manifest-512x512.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://amigosnador.com.br/" />
+    <meta property="twitter:title" content="Amigos na Dor | Apoio Religioso e Conforto" />
+    <meta property="twitter:description" content="Acolhimento emocional e espiritual para quem precisa desabafar e encontrar paz." />
+    <meta property="twitter:image" content="/web-app-manifest-512x512.png" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function () {
+        const { search, pathname, hash } = window.location;
+        if (!search.startsWith('?/')) return;
+
+        const route = search
+          .slice(2)
+          .split('&')
+          .map((segment) => segment.replace(/~and~/g, '&'))
+          .join('?');
+
+        window.history.replaceState(null, '', pathname + route + hash);
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
