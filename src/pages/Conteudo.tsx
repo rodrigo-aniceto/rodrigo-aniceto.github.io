@@ -2,8 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, User, Clock, Share2 } from 'lucide-react';
 import artigos from '../data/artigos.json';
-
-const articleImages = import.meta.glob('../assets/generated/*.jpeg', { eager: true, import: 'default' }) as Record<string, string>;
+import { getArticleImage } from '../utils/articleImages';
 
 const getReadingTime = (html: string) => {
   const text = html.replace(/<[^>]*>?/gm, ''); // Remove tags HTML
@@ -37,7 +36,7 @@ export function Conteudo() {
         <meta property="og:title" content={artigo.title} />
         <meta property="og:description" content={`Leia o artigo: ${artigo.title}`} />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content={articleImages[`../assets/generated/${artigo.image}`] || artigo.image} />
+        <meta property="og:image" content={getArticleImage(artigo.image)} />
         <meta property="og:url" content={window.location.href} />
       </Helmet>
 
@@ -48,7 +47,7 @@ export function Conteudo() {
           </Link>
 
           <img 
-            src={articleImages[`../assets/generated/${artigo.image}`] || artigo.image} 
+            src={getArticleImage(artigo.image)}
             alt={artigo.title} 
             className="w-full h-64 md:h-96 object-cover rounded-2xl mb-8 shadow-sm"
             referrerPolicy="no-referrer"

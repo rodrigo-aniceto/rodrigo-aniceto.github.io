@@ -4,8 +4,7 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import conteudosBanner from '../assets/generated/img-artigos.and-fix.png';
 import artigos from '../data/artigos.json';
-
-const articleImages = import.meta.glob('../assets/generated/*.jpeg', { eager: true, import: 'default' }) as Record<string, string>;
+import { getArticleImage } from '../utils/articleImages';
 
 const getReadingTime = (html: string) => {
   const text = html.replace(/<[^>]*>?/gm, '');
@@ -67,12 +66,18 @@ export function Conteudos() {
                 className="bg-surface rounded-2xl shadow-sm border border-gray-100 overflow-hidden group hover:shadow-md transition-shadow flex flex-col"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img 
-                    src={articleImages[`../assets/generated/${post.image}`] || post.image} 
-                    alt={post.title} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    referrerPolicy="no-referrer"
-                  />
+                  <Link
+                    to={`/conteudos/${post.slug}`}
+                    aria-label={`Abrir artigo ${post.title}`}
+                    className="block h-full focus:outline-none focus:ring-4 focus:ring-primary/30"
+                  >
+                    <img 
+                      src={getArticleImage(post.image)}
+                      alt={post.title} 
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      referrerPolicy="no-referrer"
+                    />
+                  </Link>
                 </div>
                 
                 <div className="p-6 flex flex-col flex-grow">
@@ -88,7 +93,12 @@ export function Conteudos() {
                   </div>
                   
                   <h3 className="text-xl font-serif font-bold text-secondary mb-3 line-clamp-2">
-                    {post.title}
+                    <Link
+                      to={`/conteudos/${post.slug}`}
+                      className="hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary/40 rounded-sm"
+                    >
+                      {post.title}
+                    </Link>
                   </h3>
                   
                   <p 

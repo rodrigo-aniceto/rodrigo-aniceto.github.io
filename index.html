@@ -1,57 +1,107 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amigos na Dor | Apoio Religioso e Conforto</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Amigos na Dor | Alguém para conversar na hora que você mais precisa
+        </title>
 
-    <!-- Meta Tags Básicas -->
-    <meta name="description" content="Amigos na Dor - Um espaço seguro e acolhedor para desabafar, encontrar apoio religioso e conforto emocional. Você não está sozinho." />
-    <meta name="keywords" content="apoio emocional, conforto espiritual, oração, desabafar, atendimento anônimo, luto, ansiedade, igreja" />
-    <meta name="author" content="Amigos na Dor" />
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-870658922"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-    <!-- Favicon e Ícones -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+            gtag("config", "AW-870658922");
+        </script>
+        <meta
+            name="google-site-verification"
+            content="3eqHGj0uDmhwBY71RnyXHvZmd7tldtNXWRk2UNnhSHM"
+        />
 
-    <!-- Open Graph / Facebook / WhatsApp -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://amigosnador.com.br/" />
-    <meta property="og:title" content="Amigos na Dor | Você não está sozinho" />
-    <meta property="og:description" content="Acolhimento emocional e espiritual para quem precisa desabafar e encontrar paz." />
-    <meta property="og:image" content="/web-app-manifest-512x512.png" />
+        <!-- Meta Tags Básicas -->
+        <meta
+            name="description"
+            content="Somos um canal anônimo onde aqueles que passam por sofrimentos podem desabafar e receber ajuda emocional e espiritual. Nos fundamentamos na Bíblia Sagrada."
+        />
+        <meta
+            name="keywords"
+            content="apoio emocional, conforto espiritual, oração, desabafar, atendimento anônimo, luto, medo, depressão, ansiedade, igreja"
+        />
+        <meta name="author" content="Amigos na Dor" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://amigosnador.com.br/" />
-    <meta property="twitter:title" content="Amigos na Dor | Apoio Religioso e Conforto" />
-    <meta property="twitter:description" content="Acolhimento emocional e espiritual para quem precisa desabafar e encontrar paz." />
-    <meta property="twitter:image" content="/web-app-manifest-512x512.png" />
+        <!-- Favicon e Ícones -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="/favicon-96x96.png"
+        />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script>
-      (function () {
-        const { search, pathname, hash } = window.location;
-        if (!search.startsWith('?/')) return;
+        <!-- Open Graph / Facebook / WhatsApp -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://amigosnador.com.br/" />
+        <meta
+            property="og:title"
+            content="Amigos na Dor | Você não está sozinho"
+        />
+        <meta
+            property="og:description"
+            content="Acolhimento emocional e espiritual para quem precisa desabafar e encontrar paz."
+        />
+        <meta property="og:image" content="/web-app-manifest-512x512.png" />
 
-        const route = search
-          .slice(2)
-          .split('&')
-          .map((segment) => segment.replace(/~and~/g, '&'))
-          .join('?');
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://amigosnador.com.br/" />
+        <meta
+            property="twitter:title"
+            content="Amigos na Dor | Apoio Religioso e Conforto"
+        />
+        <meta
+            property="twitter:description"
+            content="Acolhimento emocional e espiritual para quem precisa desabafar e encontrar paz."
+        />
+        <meta
+            property="twitter:image"
+            content="/web-app-manifest-512x512.png"
+        />
 
-        window.history.replaceState(null, '', pathname + route + hash);
-      })();
-    </script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+        <!-- Fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="root"></div>
+        <script>
+            (function () {
+                const { search, pathname, hash } = window.location;
+                if (!search.startsWith("?/")) return;
+
+                const route = search
+                    .slice(2)
+                    .split("&")
+                    .map((segment) => segment.replace(/~and~/g, "&"))
+                    .join("?");
+
+                window.history.replaceState(null, "", pathname + route + hash);
+            })();
+        </script>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
 </html>
