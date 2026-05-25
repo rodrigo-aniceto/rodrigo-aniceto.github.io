@@ -25,6 +25,20 @@
             name="google-site-verification"
             content="3eqHGj0uDmhwBY71RnyXHvZmd7tldtNXWRk2UNnhSHM"
         />
+        <script>
+            (function () {
+                const { search, pathname, hash } = window.location;
+                if (!search.startsWith("?/")) return;
+
+                const route = search
+                    .slice(2)
+                    .split("&")
+                    .map((segment) => segment.replace(/~and~/g, "&"))
+                    .join("?");
+
+                window.history.replaceState(null, "", pathname + route + hash);
+            })();
+        </script>
 
         <!-- Meta Tags Básicas -->
         <meta
@@ -88,20 +102,6 @@
     </head>
     <body>
         <div id="root"></div>
-        <script>
-            (function () {
-                const { search, pathname, hash } = window.location;
-                if (!search.startsWith("?/")) return;
-
-                const route = search
-                    .slice(2)
-                    .split("&")
-                    .map((segment) => segment.replace(/~and~/g, "&"))
-                    .join("?");
-
-                window.history.replaceState(null, "", pathname + route + hash);
-            })();
-        </script>
         <script type="module" src="/src/main.tsx"></script>
     </body>
 </html>
